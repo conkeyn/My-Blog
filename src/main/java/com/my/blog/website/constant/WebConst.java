@@ -1,11 +1,9 @@
 package com.my.blog.website.constant;
 
-import org.springframework.stereotype.Component;
-
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
-import java.util.Set;
+
+import org.springframework.stereotype.Component;
 
 /**
  * Created by BlueT on 2017/3/3.
@@ -52,7 +50,7 @@ public class WebConst {
     /**
      * 上传文件最大1M
      */
-    public static Integer MAX_FILE_SIZE = 1048576;
+    public static Integer MAX_FILE_SIZE = 1048576 * 100;
 
     /**
      * 成功返回
